@@ -175,5 +175,11 @@ a{
         width: 90vw;
     }
 
+    .content-text h1{
+        font-size: 3rem;
+    }
     
+    .btn-container button{
+        width: 150px;
+    }
 }
