@@ -103,6 +103,7 @@ a{
 .btn-container{
     width: 150px;
     display: block;
+    justify-self: center;
 }
 
 .btn-container button{
@@ -168,6 +169,65 @@ a{
     text-align: center;
 }
 
+.about-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+.about-text{
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 75vw;
+    height: 80vh;
+    padding: 10px 10px 0 10px;
+    color: rgb(66, 65, 65);
+    word-wrap: normal;
+    overflow-y: scroll;
+    position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #fff;
+}
+
+.about-text::-webkit-scrollbar{
+    width: 5px;
+}
+
+.about-text h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 2.5rem;
+    position: sticky;
+    background-color:#fff;
+    left: 0;
+    right: 0;
+    top: -10px;
+}
+
+.about-text p{
+    text-align: justify;
+    
+}
+
+.about-text p a{
+    color: #fff;
+    background-color: rgb(76, 124, 108);
+    border-radius: 5px;
+}
+
+.about-text p a:hover{
+    background-color: rgb(60, 108, 92);
+}
+
+
+
+
+
 @media screen and (max-width: 760px){
     .feature-card{
         flex-direction: column;
@@ -183,3 +243,4 @@ a{
         width: 150px;
     }
 }
+
